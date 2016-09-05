@@ -3,7 +3,7 @@ import time, sys, signal, atexit
 import pyupm_zfm20 as upmZfm20
 import myoled
 
-# Instantiate a ZFM20 Fingerprint reader on UART 0
+# Instantiate a ZFM20 Fingerprint reader on UART 1
 myFingerprintSensor = upmZfm20.ZFM20(1)
 
 ## Exit handlers ##
